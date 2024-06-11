@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    padding: 0 10px 0 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+a:active{
+    color: purple;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+.title{
+    margin: 10px 0;
+}
