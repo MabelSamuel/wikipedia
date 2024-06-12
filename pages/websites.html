@@ -4,34 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
-   <link rel="stylesheet" href="/frontend/html/basic tut 1/wikipedia/css/index.css">
+   <link rel="stylesheet" href="/css/index.css">
 </head>
+
 <body>
+    <!-- the header that contains wiki logo image, a search bar and button-->
     <header class="heading">
         <img src="./images/wikipedia.png" alt="wiki">
         <h1>Wikipedia</h1>
-        <nav>
             <form action="/search" method="get">
                 <input type="text" name="q" placeholder="Search wikipedia">
                 <button type="submit">Search
                 </button>
             </form>
-        </nav>
     </header>
+
+     <!-- the main content  -->
     <main>
-        <h2 class="title">Website</h2>
-        <hr>
-        <p>A website (also written as a web site) is a collection of web pages and related content that is identified by a common domain name and published on at least one web server. Websites are typically dedicated to a particular topic or purpose, such as news, education, commerce, entertainment, or social media. Hyperlinking between web pages guides the navigation of the site, which often starts with a home page. The most-visited sites are Google, YouTube, and Facebook.</p>
+        <section>
+            <h2 class="title">Website</h2>
+            <hr>
+            <p>A website (also written as a web site) is a collection of web pages and related content that is identified by a common domain name and published on at least one web server. Websites are typically dedicated to a particular topic or purpose, such as news, education, commerce, entertainment, or social media. Hyperlinking between web pages guides the navigation of the site, which often starts with a home page. The most-visited sites are Google, YouTube, and Facebook.</p>
+        </section>
+        <section>
+            <h3 class="title">Static Website</h3>
+            <hr>
+            <p>A static website is one that has Web pages stored on the server in the format that is sent to a client Web browser. It is primarily coded in <a href="./languages.html" target="_blank" rel="noopener noreferrer">Hypertext Markup Language (HTML)</a>; <a href="./languages.html">Cascading Style Sheets (CSS)</a> are used to control appearance beyond basic HTML. Images are commonly used to create the desired appearance and as part of the main content. Audio or video might also be considered "static" content if it plays automatically or is generally non-interactive. This type of website usually displays the same information to all visitors. Similar to handing out a printed brochure to customers or clients, a static website will generally provide consistent, standard information for an extended period of time. Although the website owner may make updates periodically, it is a manual process to edit the text, photos, and other content and may require basic website design skills and software. Simple forms or marketing examples of websites, such as a classic website, a five-page website or a brochure website are often static websites, because they present pre-defined, static information to the user. This may include information about a company and its products and services through text, photos, animations, audio/video, and navigation menus.</p>
+        </section>
 
-        <h3 class="title">Static Website</h3>
-        <hr>
-        <p>A static website is one that has Web pages stored on the server in the format that is sent to a client Web browser. It is primarily coded in <a href="./languages.html" target="_blank" rel="noopener noreferrer">Hypertext Markup Language (HTML)</a>; <a href="./languages.html">Cascading Style Sheets (CSS)</a> are used to control appearance beyond basic HTML. Images are commonly used to create the desired appearance and as part of the main content. Audio or video might also be considered "static" content if it plays automatically or is generally non-interactive. This type of website usually displays the same information to all visitors. Similar to handing out a printed brochure to customers or clients, a static website will generally provide consistent, standard information for an extended period of time. Although the website owner may make updates periodically, it is a manual process to edit the text, photos, and other content and may require basic website design skills and software. Simple forms or marketing examples of websites, such as a classic website, a five-page website or a brochure website are often static websites, because they present pre-defined, static information to the user. This may include information about a company and its products and services through text, photos, animations, audio/video, and navigation menus.</p>
-
-        <h3 class="title">Dynamic Website</h3>
-        <hr>
-        <p>A dynamic website is one that changes or customizes itself frequently and automatically. Server-side dynamic pages are generated "on the fly" by computer code that produces the HTML (CSS are responsible for appearance and thus, are static files). There are a wide range of software systems, such as CGI, Java Servlets and Java Server Pages (JSP), Active Server Pages and ColdFusion (CFML) that are available to generate dynamic Web systems and dynamic sites. Various <a href="./frameworks.html">Web application frameworks</a> and Web template systems are available for general-use programming languages like Perl, PHP, Python and Ruby to make it faster and easier to create complex dynamic websites.</p>
+        <section>
+            <h3 class="title">Dynamic Website</h3>
+            <hr>
+            <p>A dynamic website is one that changes or customizes itself frequently and automatically. Server-side dynamic pages are generated "on the fly" by computer code that produces the HTML (CSS are responsible for appearance and thus, are static files). There are a wide range of software systems, such as CGI, Java Servlets and Java Server Pages (JSP), Active Server Pages and ColdFusion (CFML) that are available to generate dynamic Web systems and dynamic sites. Various <a href="./frameworks.html">Web application frameworks</a> and Web template systems are available for general-use programming languages like Perl, PHP, Python and Ruby to make it faster and easier to create complex dynamic websites.</p>
+        </section>
     </main>
-
+<!-- the footer containing copyright and navigation back to the top -->
     <footer>
         <p>&copy; 2023 Web Development Mini Wikipedia</p>
         <p><a href="#">Back to Top</a></p>
